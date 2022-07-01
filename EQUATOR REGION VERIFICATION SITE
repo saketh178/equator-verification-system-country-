@@ -12,7 +12,7 @@ int main()
   scanf("%s",r.cy);
   int i,x=0,*y;
   y=&x;
-  p=fopen("jay.txt","w");
+  p=fopen("sak.txt","w");
   if(strcmp("Ecuador",r.cy)==*y)
     {printf("%s Lies in Equator Region",r.cy);
     fprintf(p,"%s Lies in Equator Region",r.cy);}
@@ -56,3 +56,6 @@ printf("\n\n------------------Thank You For Visiting Our Site-------------------
 fclose(p);
     return 0;
 }
+
+
+
